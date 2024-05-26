@@ -1,0 +1,10 @@
+$body-color-light: #eae0e0;
+$body-color-dark: #5e43f3;
+$arabic-font-1: "IBM Plex Sans Arabic", sans-serif;
+$arabic-font-2: "Noto Naskh Arabic", serif;
+
+body {
+    background-color: $body-color-light;
+    font-family: $arabic-font-2;
+    font-weight: 500;
+}
