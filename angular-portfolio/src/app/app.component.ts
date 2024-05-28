@@ -8,5 +8,7 @@ import { Shams } from './mocks/mocks';
 })
 export class AppComponent {
   title = 'angular-portfolio';
-  content = Shams;
+  skills = Shams.skills;
+  experiences = Shams.experiences;
+  socials = Shams.socials;
 }

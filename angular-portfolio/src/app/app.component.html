@@ -3,26 +3,26 @@
   <div id="title"> SOFTWARE ENGINEERING STUDENT</div>
 </section>
 
-<section class="about-me"><p>Loving computers since the age of 8! 🖥️<br>
+<section class="about-me">
+  <p>Loving computers since the age of 8! 🖥️
     I grew up gaming, then later discovered the captivating nature of programming through learning Python 🐍
   </p>
 </section>
 
-<section class="skills"> SKILLS
-  <div class = "skills-container"*ngFor="let skill of content.skills">
+<section class="skills">SKILLS
+  <div class="skills-container" *ngFor="let skill of skills">
     <div>{{skill}}</div>
-    
   </div>
-
+</section>
 
 <section class="experience">EXPERIENCE
-  <p></p>
-</section>
-
-<section class="socials">
-  <div class="container">
-    <div></div>
-    <div></div>
-    <div></div>
+  <div class="experience-container" *ngFor="let experience of experiences">{{experience}}
   </div>
 </section>
+
+
+<!-- <section class="socials">
+  <div class="socials-container" *ngFor="let platform of socials">
+    <i>{{platform}}</i>
+  </div>
+</section> -->
