@@ -1,25 +1,30 @@
-<section class="header">
-  <div id="name">SHAMS HASAN</div>
-  <div id="title"> SOFTWARE ENGINEERING STUDENT</div>
+<section>
+<div class="header">
+    SHAMS HASAN
+    <br>
+    SOFTWARE ENGINEERING STUDENT 
+  </div>
 </section>
 
-<section class="about-me">
+<section class = "about-me"> ABOUT
   <p>Loving computers since the age of 8! 🖥️
+    <br>
     I grew up gaming, then later discovered the captivating nature of programming through learning Python 🐍
   </p>
 </section>
 
-<section class="skills">SKILLS
-  <div class="skills-container" *ngFor="let skill of skills">
-    <div>{{skill}}</div>
-  </div>
+<section> SKILLS 
+<div class="skills-container" *ngFor="let skill of skills">
+  {{skill}}
+</div>
 </section>
 
-<section class="experience">EXPERIENCE
-  <div class="experience-container" *ngFor="let experience of experiences">{{experience}}
-  </div>
+<section> EXPERIENCE
+<div class="experience-container" 
+*ngFor="let experience of experiences">
+  {{experience}}
+</div>
 </section>
-
 
 <!-- <section class="socials">
   <div class="socials-container" *ngFor="let platform of socials">
