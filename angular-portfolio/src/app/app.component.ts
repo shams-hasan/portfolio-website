@@ -10,5 +10,5 @@ export class AppComponent {
   title = 'angular-portfolio';
   skills = Shams.skills;
   experiences = Shams.experiences;
-  // socials = Shams.socials;
+  socials = Shams.socials;
 }
