@@ -1,18 +1,16 @@
-.header {
+.heading {
     font-size: 17px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
 .about-me > p {
     margin-top: 0px;
     font-size: 14px;
-
 }
 
 .skills-container {
     font-size: 13.5px;
-
 }
 
 .experience-container {
@@ -20,17 +18,16 @@
     margin-bottom: 15px;
 }
 
+.socials-container > a > img {
+    margin: 2.5px;
+}
+
 .images {
-   margin:auto;
-   margin-top: -2.5px;
-   margin-bottom: 10px;
+    margin: auto;
+    margin-top: -2.5px;
+    margin-bottom: 10px;
 }
 
 .content > h5 {
     margin-top: -20px;
-}
-
-i {
-    line-height: 90px;
-    font-size: 13px;
 }
