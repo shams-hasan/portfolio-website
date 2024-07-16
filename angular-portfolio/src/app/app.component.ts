@@ -11,4 +11,5 @@ export class AppComponent {
   skills = Shams.skills;
   experiences = Shams.experiences;
   socials = Shams.socials;
+  dates = Shams.dates;
 }

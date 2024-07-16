@@ -24,13 +24,15 @@
 <section> <u>EXPERIENCE</u>
   <div class="experience-container" *ngFor="let experience of experiences">
     {{experience}}
+    <div class="dates-container" *ngFor="let date of dates">{{date}}</div>
   </div>
 </section>
 
 <section class="socials">
   <div class="socials-container">
     <a href="https://www.linkedin.com/in/shams-h/"><img width="30" height="30"
-        src="../assets/images/linkedin-icon.svg"></a>
-    <a href="https://github.com/shamshasan0"><img width="30" height="30" src="../assets/images/github-icon.svg"></a>
+        src="/assets/images/linkedin-icon.svg"></a>
+    <a href="https://github.com/shamshasan0"><img width="30" height="30" src="/assets/images/github-icon.svg"></a>
+    <a href="mailto: shams_tech@proton.me"> <img width="30" height="30" src="/assets/images/proton-icon.png"> </a>
   </div>
 </section>
