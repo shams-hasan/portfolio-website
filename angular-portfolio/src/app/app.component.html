@@ -21,12 +21,14 @@
   </div>
 </section>
 
-<section> <u>EXPERIENCE</u>
-  <div class="experience-container" *ngFor="let experience of experiences">
-    {{experience}}
-    <div class="dates-container" *ngFor="let date of dates">{{date}}</div>
+<section>
+  <u>EXPERIENCE</u>
+  <div class="experience-container" *ngFor="let experience of experiences; let i = index">
+    <div>{{ experience }}</div>
+    <div class="dates-container">{{ dates[i] }}</div>
   </div>
 </section>
+
 
 <section class="socials">
   <div class="socials-container">

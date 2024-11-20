@@ -1,6 +1,6 @@
 export const Shams = {
-    skills: ["Angular", "TypeScript", "JavaScript", "Python", "Java", "SQL", "Docker", "Git"],
-    experiences: ["Software Engineer Intern at Zebra Technologies"],
-    dates:  ["May 28, 2024 - August 16, 2024"],
+    skills: ["Python", "Java", "TypeScript", "JavaScript", "SQL", "Angular", ".NET", "Karma & Jasmine Testing", "JUnit Testing", "HTML/CSS", "MySQL", "AWS","Docker", "YAML", "Git", "Agile", "Figma"],
+    experiences: ["Software Engineer Intern at Zebra Technologies", "Programming Tutor at Georgia State University"],
+    dates: ["May 2024 - August 2024", "October - December 2023"],
     socials: ["LinkedIn", "GitHub"]
 }
