@@ -41,3 +41,45 @@
 .content > h5 {
     margin-top: -20px;
 }
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #4e88b0;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #3a7d99;
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(72, 145, 187, 0.5);
+}
+
+button i {
+    margin-right: 8px;
+}
+
+body {
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
