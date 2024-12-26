@@ -21,6 +21,15 @@ body {
     font-size: 14px;
 }
 
+.about-me span {
+    font-weight: bold;
+}
+
+.about-me > p > span {
+    margin-top: 0px;
+    font-size: 17px;
+}
+
 .skills-container {
     font-size: 13.5px;
 }
@@ -40,14 +49,16 @@ body {
 
 .images {
     margin: auto;
-    margin-top: -2.5px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
     width: 125px;
+    padding-top: 15px;
 }
 
 .profile-pic {
     border-radius: 50%;
     width: 125px;
+    transform: scale(1.35);
 }
 
 .content > h5 {
@@ -85,8 +96,8 @@ button i {
 }
 
 .separator {
-    border: 0; /* Remove default border */
-    border-top: 2px solid black; /* Create a black line */
-    width: 50%; /* Set the length of the line to 50% of the parent container */
-    margin: 20px auto; /* Center the line horizontally and add vertical spacing */
+    border: 0;
+    border-top: 2px solid black;
+    width: 50%;
+    margin: 20px auto;
 }
