@@ -3,5 +3,5 @@
 ### Includes:
 * About Me
 * Skills & Experience
-* Platform Link(s)
-* CV
+* Platform Links
+
