@@ -16,13 +16,13 @@ body {
     margin-bottom: 10px;
 }
 
-.about-me h3{
+.about-me h2{
     margin-bottom: 5px;
 }
 
 .about-me > p {
     margin-top: 0px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 
@@ -62,8 +62,10 @@ body {
 .profile-pic {
     border-radius: 47%;
     max-width: 100%;
-    transform: scale(1.65);
-    margin-bottom: 12px;
+    transform: scale(2);
+    margin-bottom: 40px;
+    margin-top: 25px;
+    
 }
 
 .content > h5 {
