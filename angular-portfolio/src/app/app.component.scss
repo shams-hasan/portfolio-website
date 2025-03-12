@@ -16,15 +16,15 @@ body {
     margin-bottom: 10px;
 }
 
-.about-me h2{
+.about-me h2 {
     margin-bottom: 5px;
 }
 
 .about-me > p {
     margin-top: 0px;
     font-size: 15px;
+    margin-bottom: 35px;
 }
-
 
 .about-me span {
     font-weight: bold;
@@ -37,6 +37,10 @@ body {
 
 .skills-container {
     font-size: 13.5px;
+}
+
+section + section {
+    margin-bottom: 20px;
 }
 
 .experience-container {
@@ -52,6 +56,10 @@ body {
     margin: 2.5px;
 }
 
+.socials-container {
+    margin-bottom: 10px;
+}
+
 .images {
     margin: auto;
     margin-top: 10px;
@@ -65,7 +73,6 @@ body {
     transform: scale(1.75);
     margin-bottom: 30px;
     margin-top: 25px;
-    
 }
 
 .content > h5 {
@@ -86,6 +93,7 @@ button {
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-top: -20px;
 }
 
 button:hover {
@@ -102,9 +110,34 @@ button i {
     margin-right: 8px;
 }
 
-.separator {
+.separator1 {
     border: 0;
     border-top: 2px solid black;
-    width: 50%;
+    width: 75%;
     margin: 20px auto;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.separator2 {
+    width: 36%;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid black;
+    
+}
+
+@media (max-width: 768px) {
+    .separator1 {
+        margin-bottom: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .separator2 {
+        margin-top: -10px;
+        width: 74%;
+        margin-bottom: 20px;
+        border: 0;
+        border-top: 2px solid black;
+
+    }
 }
